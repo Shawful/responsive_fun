@@ -1,0 +1,13 @@
+
+/* For larger viewports, desktop */
+
+.header_image {
+	/*position: absolute;*/
+	/*left: 0px;*/
+	float: left;
+	margin: 1em;
+}
+
+.nav_row {
+	float: right;
+}

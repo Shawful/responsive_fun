@@ -1,0 +1,226 @@
+
+/* For larger viewports, desktop */
+
+
+/* Header and navigation
+============================ */
+
+header {
+	left: 0;
+	right: 0;
+	padding: 1em;
+}
+
+header img {
+	margin: 1em;
+	width: 200px;
+	float: left;
+	margin-left: 8em;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	margin: 1em;
+	padding-right: 10px;
+}
+
+nav a {
+	text-decoration: none;
+	padding: .2em;
+	/*background: pink;*/
+	font-weight: 300;
+}
+
+nav a:hover,
+nav a:focus {
+	color: #333333;
+}
+
+nav {
+	text-align: left;
+	margin-left: 400px;
+}
+
+nav > ul > li:last-child {
+	display: inline-block;
+}
+
+.nav_bg {
+	padding: 7px;
+}
+
+.button {
+	display: inline-block;
+	font-size: .9rem;
+	text-decoration: none;
+	padding: .5em 1.5em;
+	background-color: #FF9900;
+	border-radius: 3px;
+	color: #FFFFFF;
+	top: 1.5em;
+	margin-left: 2.35em;
+}
+
+.button a:hover,
+.button a:focus, {
+	color: #333333;
+}
+
+
+/*  Promotional sections
+============================== */
+
+/*  large image at top of each section 	*/
+section > div > figure:nth-child(1) > img {
+	height: 260px;
+	float: right;
+	position: relative;
+	left: 2.1em;
+	margin-bottom: -1em;
+}
+
+/*  large title at top of first section */
+section > div > h1 {
+	text-align: left;
+	font-weight: normal;
+}
+
+/*  large paragraph at top of first section */
+section > div > p {
+	text-align: left;
+	width: 33.5em;
+	margin-bottom: 2.6em;
+}
+
+section.promo-2 > div > p {
+	margin-bottom: 1em;
+}
+
+section.promo-3 > div > h1 {
+	padding-bottom: .3em;
+}
+
+section.promo-3 > div > p {
+	padding-bottom: .5em;
+	margin-bottom: 0;
+}
+
+section.promo-3 {
+	padding-bottom: 2.6em;
+}
+
+
+section div div.title_two {
+	clear: both;
+}
+
+section div div.title_two_paragraph {
+	clear: both;
+	height: 100px;
+}
+
+.promo-1 {
+	padding: 3em 0;
+	padding-bottom: 4em;
+}
+
+.group {
+	display: inline-block;
+	position: relative;
+	width: 30%;
+	vertical-align: top;
+	margin-right: 1.5em;
+}
+
+.icons {
+	clear: both;
+	padding-bottom: 1.5em;	
+}
+
+/*  Bullets 
+==================== */
+
+ul {
+	margin-left: .7em;
+}
+
+ul > li {
+	text-align: left;
+}
+
+section.promo-3 ul {
+	margin-left: 0;
+}
+
+
+/*  Footer
+======================== */
+
+footer {
+	height: 9em;
+}
+
+/*   first UL  */
+footer ul:first-of-type {
+	margin-top: 2em;
+	margin-left: 0;
+	margin-left: 9.6em;
+	float: left;
+	width: auto;
+}
+
+footer ul:first-of-type li{
+	display: inline;
+	padding-left: 0;
+	padding-right: 2.4em;
+
+}
+
+footer ul:first-of-type li:last-child {
+	padding-right: 0;
+}
+
+/*  second UL  */
+footer ul:nth-of-type(2) {
+	display: inline;
+	margin-left: 0;
+	margin-top: 3.5em;
+	margin-bottom: 0;
+	list-style-type: none;
+	float: left;
+	width: initial;
+	padding-left: .7em;
+}
+
+footer ul:nth-of-type(2) li{
+	padding-left: 0;
+	display: inline;
+}
+
+footer ul:nth-of-type(2) li:first-of-type {
+	padding-left: 0;
+}
+
+
+/*  Overall
+======================== */
+
+.container {
+	width: 78%;
+	margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+

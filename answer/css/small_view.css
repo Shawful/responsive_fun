@@ -1,0 +1,206 @@
+
+/* For smaller viewports, tablets */
+
+
+/* Header and navigation
+============================ */
+
+header {
+	left: 0;
+	right: 0;
+	padding: 1em;
+}
+
+header img {
+	margin: 1em;
+	width: 300px;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	margin: 1em;
+}
+
+nav a {
+	text-decoration: none;
+	/* 	make a larger, clickable area (padding) */
+	padding: .2em;		
+	/*  temp show clickable area 				*/
+	/*  background: pink;						*/
+}
+
+nav a:hover,
+nav a:focus {
+	color: #333333;
+}
+
+nav > ul > li:last-child {
+	display: none;
+}
+
+.button {
+	display: none;
+}
+
+
+/*  Promotional sections
+============================== */
+
+/*  large image at top of each section 	*/
+section > div > figure:first-child > img {
+	height: 200px;
+	margin-bottom: 2.7em;
+}
+
+/*  large title at top of first section */
+section > div > h1 {
+	font-weight: normal;
+	margin-bottom: -.15em;
+}
+
+/*  large paragraph at top of first section */
+section > div > p {
+	margin-bottom: 0;
+}
+
+section.promo-2 {
+	padding-bottom: 1.55em;
+}
+
+section.promo-2 > div > p {
+	margin-bottom: 1em;
+}
+
+section.promo-2 > div > ul > li {
+	padding-bottom: 1em;
+}
+
+section > div > div > div.title_two {
+	text-align: left;
+}
+
+section > div > div > div.title_two_paragraph {
+	text-align: left;
+	padding-bottom: 1em;
+}
+
+section.promo-3 > div > p {
+	padding-bottom: .5em;
+}
+
+section.promo-3 > div > ul > li {
+	margin-bottom: -.3em;
+}
+
+section.promo-3 {
+	padding-bottom: 1em;
+}
+
+.icons {
+	float: left;
+	position: relative;
+	right: 1.8em;
+}
+
+.promo-1 {
+	padding: 3em 0;
+	padding-bottom: 2.5em;
+}
+
+.promo-2 {
+	padding: 3em 0;
+}
+
+.promo-3 {
+	padding: 3em 0;
+}
+
+.divider {
+	width: 89%;
+	margin: 0 auto;
+}
+
+/*  Bullets 
+==================== */
+
+ul {
+	padding-left: 0px;
+	list-style: none;
+}
+
+ul li.title_one_paragraph {
+	vertical-align: middle;
+}
+
+ul li.title_one_paragraph::before {
+	padding-right: 1.6em;
+	content: '•';
+	font-size: .7em;
+}
+
+.no_bullet {
+	list-style-type: none;
+}
+
+.check {
+	background-image: url(../../assets/checkmark.svg);
+	background-repeat: no-repeat;
+	width: 25px;
+	height: 25px; 
+	padding-left: 35px;
+}
+
+ul li.no_bullet {
+	font-size: 1.1em;
+	padding-bottom: 1em;
+}
+
+/* Footer 
+====================== */
+
+footer ul:first-of-type {
+	text-transform: uppercase;
+	padding-top: 1.4em;
+	padding-left: 0;
+	width: 100%;
+	margin-bottom: 0;
+}
+
+footer ul:first-of-type li {
+	padding-bottom: 1.3em;
+	padding-left: 44%;	
+	text-align: left;
+}
+
+.footer ul:first-of-type li:nth-child(5) {
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+footer ul:nth-of-type(2) {
+	margin-top: .5em;
+	margin-bottom: 2em;
+	width: 100%;
+	text-align: initial;
+}
+
+footer ul:nth-of-type(2) li {
+	display: inline-block;
+}
+
+footer ul:nth-of-type(2) li:first-of-type {
+	padding-left: 44%;
+}
+
+.social_icon {
+	margin-right: 10px;
+}
+
+
+
